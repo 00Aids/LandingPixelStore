@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=ç, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <title>Proyecto</title>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-[#8026F6] text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Pixel Store</h1>
+            <nav>
+                <a href="#" class="text-white px-4">Inicio</a>
+                <a href="consolas.html" class="text-white px-4">Consolas</a>
+                <a href="#" class="text-white px-4">Videojuegos</a>
+                <a href="#" class="text-white px-4">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-64" style="background-image: url()">
+        <div class="bg-black bg-opacity-50 h-full flex justify-center items-center">
+            <h2 class="text-4xl text-white font-bold">¡Descubre las mejores consolas y videojuegos!</h2>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center text-[#8026F6] mb-8">Productos Destacados</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://example.com/console1.jpg" alt="Consola 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Consola 1</h3>
+                        <p class="text-gray-700 mb-4">Descripción de la consola.</p>
+                        <span class="block text-xl font-bold"></span>
+                        <button class="bg-[#8026F6] text-white py-2 px-4 rounded mt-4 w-full">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://example.com/console2.jpg" alt="Consola 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Consola 2</h3>
+                        <p class="text-gray-700 mb-4">Descripción de la consola.</p>
+                        <span class="block text-xl font-bold"></span>
+                        <button class="bg-[#8026F6] text-white py-2 px-4 rounded mt-4 w-full">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://example.com/game1.jpg" alt="Videojuego 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Videojuego 1</h3>
+                        <p class="text-gray-700 mb-4">Descripción del videojuego.</p>
+                        <span class="block text-xl font-bold"></span>
+                        <button class="bg-[#8026F6] text-white py-2 px-4 rounded mt-4 w-full">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#8026F6] text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Pixel Store. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
